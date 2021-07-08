@@ -67,6 +67,8 @@ Assuming no environment conflicts, the program runs and satisfies all of the man
 
 ## Reflections & Observations  
 
+Overall, when I first read the description for this project, I thought it would be pretty straightforward, but I quickly found out that the keenest part of the assignment is in figuring out how to handle file uploads of that size while not breaking the limitations set by not using natively available libraries for that functionality. After finishing the assignment, it is clear that it was not as straightforward as it seemed, and as such I learned a ton as to what should be adopted in terms of best practices to make the development and deployment process more seamlesss. 
+
 The biggest issue during development was figuring out how to properly interface the custom file upload service with AWS such that the program returned no errors, and all data was properly transmitted from point A to point B and back. A better decision instead of attempting to make use of Flask & the Werkzeug library, the program could have been created using Django & a WSGI server such as Gunuicorn. 
 
 In retrospect, this would have saved a ton of debugging time as even after rolling back to Werkzeug 0.0.16 from 1.0, completely uninstalling all versions, and then reinstalling again; still yielded the same issues in which the Werkzeug module could not be found. For clarification, even after a complete uninstall, emptying of the cache, and verifying that no instance of Werkzeug exist, the errors shown below persisted. 
