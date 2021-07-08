@@ -8,6 +8,8 @@ While this was more of a preference than a requirement, there are limited better
 
 ## Installation & Setup
 
+The main program is bundleup.py, while the included uploader tool was intended to be merged into the original program once functionality was confirmed. However, due to time constraints, limitations of execution and other factors, this was not possible and as such is being submitted as a separate, but related program. 
+
 This project is built on a Flask, a simple but extensible microframework that provides robust API support, rapid scalability, and easy functionality. [Flask Documentation] https://flask.palletsprojects.com/en/2.0.x/installation/
 
 A virtual environment should be created to manage the dependencies of the project in both development and production. This ensures that Python libraries will not mix versions and therefore break environment compatability. 
