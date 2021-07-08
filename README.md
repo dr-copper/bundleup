@@ -67,7 +67,7 @@ foobar.singularize('phenomena')
 
 
 ## Roadmap
-![Screenshot](app_map.png)
+![Screenshot](app_map.PNG)
 
 ## Credits
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
