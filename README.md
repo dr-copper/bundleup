@@ -6,6 +6,11 @@ The decision was made to create this project with Python 3.9.1 & Flask 2.0.1 due
 
 While this was more of a preference than a requirement, there are limited better options in terms of simplicity and overall value of performance. 
 
+# Security Considerations 
+For the purpose of this exercise and simplicity, unique AWS access and secret keys were left in the code itself. However, in a live environment, this would be abstracted as to not pose a security risk to the application or infrastructure that it runs on. 
+
+Successful implementation of OAuth2.0 would have been prudent here with enough time to dedicate to setup and configuration. As such, access keys utilized in this project have been deprecated to ensure there are no major security lapses in the project files or repo.
+
 ## Installation & Setup
 
 The main program is bundleup.py, while the included uploader tool was intended to be merged into the original program once functionality was confirmed. However, due to time constraints, limitations of execution and other factors, this was not possible and as such is being submitted as a separate, but related program. 
