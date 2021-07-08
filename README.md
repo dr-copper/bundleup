@@ -2,7 +2,7 @@
 
 Bundle Up! is a Python-based upload portal that allows clients to conveniently submit diagnostic bundles (.tgz only) with the relevant configs & logs. 
 
-Created with Python 3.9.1
+Created with Python 3.9.1 & Flask 2.0.1
 
 ## Installation & Setup
 
@@ -67,7 +67,7 @@ foobar.singularize('phenomena')
 
 
 ## Roadmap
-
+![alt text](./app_map)
 
 
 ## Credits
