@@ -45,28 +45,30 @@ You should now be able to navigate to http://127.0.0.1:5000/ and view the app.
 
 ## Context
 
+This program was completed within the specified period of time that was available to dedicate to staging, preparations, and planning to build an effective solution to the problem. Due to this limitation, the focus was to deliver a workable product that satisfied all of the necessary requirements, while being as streamlined and as intuitive as possible. 
+
+The use of Flask was beneficial in the sense that it provides several libraries that include the functionality that was required: flash_render_template, request and jsonify were all integral components of having a working model in both code and forward stratefy. 
+
+Assuming no environment conflicts, the program runs and satisfies all of the mandatory requirements as followed:
+
+- Customer interface is HTTP REST API (optional) **completed**
+- Customer must be able to upload very large files (required) **completed**
+- Program must only accept .tgz files (required) **completed**
+- Must be able to handle multiple requests concurrently (required) **completed**
+- Support team must be able to list and download any uploaded files (required) **started,unfinished**
+- Must not use any pre-built file upload libraries **completed**
+- Minimize number of external dependencies in business logic code path **completed**
+- Setup observability solution with the design goal of providing monitoring & troubleshooting capabilities **ran out of time, suggestions included**
+- Setup deployment of application to AWS **started,unfinished**
+
+## Reflection 
 
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Approach
+## Improvement Opportunities 
 
 
 
-## Roadmap
+## Roadmap & Observability Recommendation
 ![Screenshot](app_map.PNG)
 
 ## Credits
