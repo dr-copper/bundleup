@@ -71,9 +71,11 @@ The biggest issue during development was figuring out how to properly interface 
 
 In retrospect, this would have saved a ton of debugging time as even after rolling back to Werkzeug 0.0.16 from 1.0, completely uninstalling all versions, and then reinstalling again; still yielded the same issues in which the Werkzeug module could not be found. For clarification, even after a complete uninstall, emptying of the cache, and verifying that no instance of Werkzeug exist, the errors shown below persisted. 
 
-![Screenshot](w.PNG)
-
 ![Screenshot](w2.PNG)
+
+Through numerous attempts to rectify and debug this issue, time expired before a true solution was reached, so a workaround of not using this library in the future is necessary. 
+
+![Screenshot](w.PNG)
 
 Regardless of the approach, this error would not go away, and as such, picking an easier toolset to work with would have paid dividends in terms of overall efficiency and delivering a complete solution to the problem. 
 
