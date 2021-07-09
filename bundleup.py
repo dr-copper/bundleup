@@ -44,7 +44,7 @@ def login():
 
 @app.route('/') 
 def index(): #function will accept GET requests
-    return render_template('templates/index.html')
+    return render_template('/index.html')
 
 def allowed_file(filename):
     print(filename)
