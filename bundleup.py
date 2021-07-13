@@ -7,20 +7,7 @@ from flask_cors import CORS, cross_origin
 #import necessary dictionaries 
 
 #create low level functional client 
-client=boto3.client(
-    's3',
-    aws_access_key_id = 'AKIATMGB4WODG3M6B3B5',
-    aws_secret_access_key = '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',
-    region_name = 'us-east-1' 
-    )
 
-#create high level object oriented interface 
-resource = boto3.resource(
-    's3',
-    aws_access_key_id = 'AKIATMGB4WODG3M6B3B5',
-    aws_secret_access_key = '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',
-    region_name = 'us-east-1' 
-    )
 
 # Fetch the list of existing buckets
 clientResponse = client.list_buckets()
